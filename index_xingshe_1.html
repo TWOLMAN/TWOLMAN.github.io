@@ -1,0 +1,292 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>行摄互动</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+    <style>
+/*设置导航条背景*/
+        .nav{
+    width: 1920px;
+    height: 70px;
+    z-index: 1;
+    background-image: url(images/dh_7_01.png);
+                }
+ /*设置中间内容背景*/    
+        .content{
+    position: absolute;/*父容器绝对定位*/
+    width: 1920px;
+    height: 911px;
+    background-image: url(images/sy_xshd_beijing_02_02.png);
+    z-index: -1;
+                } 
+/*设置底部footer背景*/
+        .footer{
+    height: 201px;
+    width: 1920px;
+    background-image: url(images/%E7%9F%B3%E6%A0%8F_03.png);
+    z-index: 2;
+    margin-top: 801px;
+                }
+/*设置导航下划线效果*/
+        #footer-1 > li {
+    display: inline-block;
+    margin-top: 108px;
+                }
+        .footer_1 > li > a {
+            display: block;
+            position: relative;
+            text-decoration: none;
+            color: #755f25;
+            -webkit-transition: color .1s ease-in-out;
+            transition: color .1s ease-in-out;
+            margin-left: 53px;	/*颜色递进*/
+            margin-right: 76px;
+            font-size: 20px;
+                }
+        #footer_a{
+    margin-left: 598px;
+    margin-top: 3px;
+                } 
+/*中间内容布局*/
+/*板块一*/
+ .duan_1{
+    margin-left: 400px;
+    margin-top: 67px;
+    width: 246px;
+    font-size: 18px;
+    text-align: left;
+}   
+.content_1{
+    z-index: -3;
+    width: 255px;
+    height: 165px;
+    background-color: #E5F9FB;
+    margin-left: -12px;
+    margin-top: 21px;
+    }   
+/*版块二*/
+     .duan_2{
+    margin-left: 400px;
+    margin-top: 59px;
+    width: 246px;
+    font-size: 18px;
+    text-align: left;
+}   
+    .content_2{
+    z-index: -3;
+    width: 255px;
+    height: 165px;
+    background-color: #E5F9FB;
+    margin-left: -12px;
+    margin-top: 21px;
+    }   
+        /*版块三*/
+     .duan_3{
+    margin-left: 721px;
+    margin-top: -480px;
+    width: 246px;
+    font-size: 18px;
+    text-align: left;
+}   
+    .content_3{
+    z-index: -3;
+    width: 255px;
+    height: 165px;
+    background-color: #E5F9FB;
+    margin-left: -12px;
+    margin-top: 22px;
+    } 
+        /*版块四*/
+     .duan_4{
+    margin-left: 720px;
+    margin-top: 59px;
+    width: 246px;
+    font-size: 18px;
+    text-align: left;
+}   
+    .content_4{
+    z-index: -3;
+    width: 255px;
+    height: 165px;
+    background-color: #E5F9FB;
+    margin-left: -12px;
+    margin-top: 22px;
+    } 
+        /*板块五*/
+ .duan_5{
+    margin-left: 1041px;
+    margin-top: -480px;
+    width: 246px;
+    font-size: 18px;
+    text-align: left;
+}   
+.content_5{
+    z-index: -3;
+    width: 255px;
+    height: 165px;
+    background-color: #E5F9FB;
+    margin-left: -12px;
+    margin-top: 21px;
+    }   
+/*版块六*/
+     .duan_6{
+    margin-left: 1041px;
+    margin-top: 59px;
+    width: 246px;
+    font-size: 18px;
+    text-align: left;
+}   
+    .content_6{
+    z-index: -3;
+    width: 255px;
+    height: 165px;
+    background-color: #E5F9FB;
+    margin-left: -12px;
+    margin-top: 21px;
+    }   
+        /*版块七*/
+     .duan_7{
+    margin-left: 1361px;
+    margin-top: -480px;
+    width: 246px;
+    font-size: 18px;
+    text-align: left;
+}   
+    .content_7{
+    z-index: -3;
+    width: 255px;
+    height: 165px;
+    background-color: #E5F9FB;
+    margin-left: -12px;
+    margin-top: 22px;
+    } 
+        /*版块八*/
+     .duan_8{
+    margin-left: 1361px;
+    margin-top: 59px;
+    width: 246px;
+    font-size: 18px;
+    text-align: left;
+}   
+    .content_8{
+    z-index: -3;
+    width: 255px;
+    height: 165px;
+    background-color: #E5F9FB;
+    margin-left: -12px;
+    margin-top: 22px;
+    } 
+    /*按钮1位置*/
+    .content_up{
+    margin-left: 1680px;
+    position: relative;
+    z-index: 900;
+    margin-top: -932px;
+}
+    .content_up > a {
+    color: #6a5103;
+    text-decoration: none;
+} 
+        /*按钮2位置*/
+    .content_up_1{
+    margin-left: 1680px;
+    position: relative;
+    z-index: 900;
+    margin-top: 532px;
+ }    
+        
+    .content_up_1 > a {
+    color: #6a5103;
+    text-decoration: none;
+    margin-left: 0px;
+    max-width: 0px;
+}
+        /* 文案设置*/
+    .content_wenan{
+    max-width: 731px;
+    max-height: 95px;
+    color: #88816B;
+    font-size: 16px;
+    text-align: left;
+    letter-spacing: 5px;
+    line-height: 29px;
+    margin-left: 392px;
+    margin-top: 66px;
+}
+        /*更改footer底部文字颜色*/
+        #footer_3{
+    color: #C43D40;            
+        }
+    </style>
+
+</head>
+<body style="font-family: '微软雅黑'">
+    <div id="logo"><img src="images/logo_02.png" width="166" height="70" alt=""/></div>
+<div class="nav">
+  <ul id="nav_bar" class="nav-bar ">
+             <li>
+                <a class="nav-bar"  id="a_1" href="index.html" style="color:#fb4235">首 页</a>
+            </li>
+            <li>
+                <a href="2_0_jqgk_jianjie.html">景区概况</a>
+            </li>
+            <li>
+                <a href="3_0_ztjq_center.html">主题景区</a>
+            </li> 
+             <li>
+                <a href="4_0_jqwh_center.html">景区文化</a>
+            </li> 
+            <li>
+              <a href="5_0_swhy_huanjing.html">商务会议</a>
+            </li>
+        </ul>
+    </div>
+<div class="content"> 
+  <div class="duan_1"><p>亲子游</p>
+      <div class="content_1"><img src="images/sy_xshd_beijing_03_07.png" width="255" height="165" alt=""/></div>
+    </div>
+     <div class="duan_2"><p>辛夷花仙子树下</p>
+      <div class="content_2"><img src="images/sy_xshd_beijing_03_19.png" width="255" height="165" alt=""/></div>
+    </div>
+      <div class="duan_3"><p>森林穿越，情迷药王谷</p>
+      <div class="content_3"><img src="images/sy_xshd_beijing_03_09.png" width="255" height="165" alt=""/></div>
+    </div>
+     <div class="duan_4"><p>连翘花海的美丽姑娘</p>
+      <div class="content_4"><img src="images/sy_xshd_beijing_03_21.png" width="256" height="165" alt=""/></div>
+    </div>
+    <div class="duan_5"><p>辛夷花盛开</p>
+      <div class="content_5"><img src="images/sy_xshd_beijing_04_13.png" width="255" height="165" alt=""/></div>
+    </div>
+     <div class="duan_6"><p>雾色</p>
+      <div class="content_6"><img src="images/sy_xshd_beijing_04_07.png" width="253" height="165" alt=""/></div>
+    </div>
+      <div class="duan_7"><p>遍地春味</p>
+      <div class="content_7"><img src="images/sy_xshd_beijing_04_11.png" width="255" height="165" alt=""/></div>
+    </div>
+     <div class="duan_8"><p>绿色石头</p>
+      <div class="content_8"><img src="images/sy_xshd_beijing_04_09.png" width="255" height="165" alt=""/></div>
+    </div>
+    <div class="content_wenan"><p>世界上最遥远的距离不是我明明在你身边，你看不见我<br>
+  而是明明知道山的那一边有一块远离城市的雾霾仙境，你却犹豫不决，迟迟不动身……</p></div>
+    </div>
+<div class="footer">
+   <ul id="footer-1" class="footer_1" >
+                       <li>
+                <a id="footer_a" class="footer_2" href="index_景点动态.html">景点动态</a>
+            </li>
+            <li>
+                <a id="footer_3" class="footer_2" href="index_xingshe.html">行摄互动</a>
+            </li>
+            <li>
+                <a class="footer_2" href="index_teselvyou.html">特色旅游</a>
+            </li> 
+            <li>
+                <a class="footer_2" href="index_zhoubian.html">周边景点</a>
+            </li> 
+  </ul> 
+</div>
+     <div class="content_up"><a class="footer_2" href="index_xingshe_1.html">下<br>一<br>页</a></div>
+    <div class="content_up_1"><a class="footer_2" href="index_xingshe.html">上<br>一<br>页</a></div>  
+</body>
+</html>

@@ -1,0 +1,90 @@
+@charset "utf-8";
+}
+.photo{
+    width: 1920px;
+    height: 911px;
+    border: 0px solid #555555;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    background: #ffffff;
+    box-shadow: 0 0px 0px rgba(0,0,0,.6);
+    padding-top: 282px;
+}
+.photo input{
+    display: none;
+}
+.image{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 910px;
+    margin: 0px 0px;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 0.7s;
+    padding-top: 70px;
+    z-index: -20;
+}
+.image img{
+ 
+}
+.nae label{
+    width: 1920px;
+    height: 910px;
+    margin: 0px 0px;
+    position: absolute;
+    z-index: 10;
+    opacity: 0;
+    display: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    color: #ffffff;
+    font-size: 50px;
+    line-height: 450px;
+    text-align: center;
+    text-shadow: 0 0 15px #555555);
+}
+
+    opacity: 0.5;
+}
+.nae label:hover{
+    opacity: 1;
+}
+.nae .down{
+    right: 0;
+}
+input:checked + .control .image{
+    opacity: 1;
+    transform: scale(1);
+    transition: all 1s;
+}
+input:checked + .control .nae label{
+    display: block;
+}
+.dots{
+    width:100%;
+    height: 0px;
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+.dot{
+    width: 10px;
+    height: 10px;
+    margin: 0px 5px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    background: rgba(0,0,0,0.3);
+}
+input#img1:checked ~ .dots label#dot1,
+input#img2:checked ~ .dots label#dot2,
+input#img3:checked ~ .dots label#dot3,
+input#img4:checked ~ .dots label#dot4,
+input#img5:checked ~ .dots label#dot5,
+input#img6:checked ~ .dots label#dot6{
+    background: rgba(0,0,0,0.7);
+}
